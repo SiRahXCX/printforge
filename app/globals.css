@@ -3,4 +3,5 @@
 @theme inline {
   --font-body: var(--font-albert-sans);
   --font-heading: var(--font-montserrat-alternates);
+  --color-orange-accent: #f77d36;
 }

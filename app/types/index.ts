@@ -20,3 +20,12 @@ export type ModelCardProps = {
     category: string
     dateAdded: string
 }
+
+export type Category = {
+    displayName: string
+    slug: string
+}
+
+export type CategoriesData = {
+    categories: Category[]
+}
