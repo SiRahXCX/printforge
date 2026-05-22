@@ -1,7 +1,4 @@
 import Image from 'next/image'
-import stackIcon from '@/app/assets/icons/stack.png'
-import globeIcon from '@/app/assets/icons/globe.png'
-import flagIcon from '@/app/assets/icons/flag.png'
 
 export default function AboutPage() {
     return (
