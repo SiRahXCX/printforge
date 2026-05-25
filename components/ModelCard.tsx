@@ -14,7 +14,7 @@ export default function ModelCard(props: ModelCardProps) {
             </div>
             <div className="border-[.95px] border-[#A1A1A1] rounded-[9.47px] p-[15.15px]">
                 <div className="font-heading text-[21.41px] font-bold mb-4">{props.name}</div>
-                <div className="font-body text-[17.84px] font-normal leading-0 mb-4">{props.name}</div>
+                <div className="font-body text-[17.84px] font-normal leading-tight mb-4">{props.description}</div>
                 <button type="button" className="p-[8.92px] border-[#A1A1A1] border-[0.89px] rounded-[17.84px] mb-4">{props.category}</button>
                 <div className="flex flex-row flex-nowrap justify-between items-center w-fit">
                     <Image
